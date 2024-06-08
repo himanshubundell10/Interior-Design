@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './assets/Logo.png'
+import Logo from './assets/file.png'
 import { RButton } from './Button';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
@@ -13,8 +13,8 @@ function Navbar () {
         {/* Page content here */}
         <header id='home' className='w-full container mx-auto'>
           <nav className='container flex fixed z-10 justify-between bg-white shadow-md shadow-slate-200 p-4 sm:py-8 sm:px-6 md:py-10 md:px-12 lg:px-20 xl:px-36'>
-            <div className='flex items-center'>
-              <a href="#home"><img className='h-8 cursor-pointer lg:h-10 xl:h-12' src={Logo} alt="Ambiance Interior Design Studio" /></a>
+            <div className='flex items-center w-[80px] md:w-[150px]'>
+              <a href="#home"><img className=' cursor-pointer' src={Logo} alt="Icrave Creations Design Studio" /></a>
             </div>
             <div className='flex items-center'>
               <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary bg-transparent border-none text-zinc-950 px-2 hover:bg-transparent hover:text-orange-500 transition-all md:hidden"><MenuRoundedIcon/></label>
